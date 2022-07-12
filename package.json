@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/scssyworks/rollup-pack/issues"
   },
-  "homepage": "https://github.com/scssyworks/rollup-pack#readme"
+  "homepage": "https://github.com/scssyworks/rollup-pack#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.0.0",
+    "yargs": "^17.5.1"
+  },
+  "bin": "./index.js"
 }
