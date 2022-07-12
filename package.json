@@ -1,0 +1,27 @@
+{
+  "name": "rollup-pack",
+  "version": "0.0.1",
+  "description": "Create node, typescript and react libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scssyworks/rollup-pack.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "react",
+    "library",
+    "generator",
+    "scaffold"
+  ],
+  "author": "scssyworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scssyworks/rollup-pack/issues"
+  },
+  "homepage": "https://github.com/scssyworks/rollup-pack#readme"
+}
