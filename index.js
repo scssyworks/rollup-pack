@@ -24,6 +24,9 @@ import { exec, scheduler } from './libs/scheduler.js';
           (key) => projectTypes[key] === 'tw'
         ),
         message: 'Select a type of project',
+        filter(input) {
+          return projectTypes[input];
+        },
       },
       {
         name: 'description',
